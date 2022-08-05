@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="538.0" prefWidth="690.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.MainController">
+    <children>
+        <VBox prefHeight="520.0" prefWidth="161.0" style="-fx-background-color: #2581dd;" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="0.0" />
+        <Text fill="#2581dd" layoutX="335.0" layoutY="46.0" lineSpacing="4.0" smooth="false" strokeType="OUTSIDE" strokeWidth="0.0" text="Menu" textAlignment="CENTER" wrappingWidth="161.0" />
+      <Button layoutX="349.0" layoutY="153.0" mnemonicParsing="false" onAction="#Creation" prefHeight="24.0" prefWidth="161.0" text="créer contrat" />
+      <Button layoutX="348.0" layoutY="225.0" mnemonicParsing="false" onAction="#Consultation" prefHeight="24.0" prefWidth="161.0" text="Consulter contrat" />
+      <Button layoutX="349.0" layoutY="302.0" mnemonicParsing="false" onAction="#Suppression" prefHeight="24.0" prefWidth="161.0" text="Rompre contrat" />
+      <Hyperlink layoutX="176.0" layoutY="500.0" onAction="#Retour" text="Se déconnecter" />
+    </children>
+</AnchorPane>

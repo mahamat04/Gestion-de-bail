@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="538.0" prefWidth="690.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.MainController">
+   <children>
+      <VBox prefHeight="520.0" prefWidth="161.0" style="-fx-background-color: #2581dd;" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Text fill="#2581dd" layoutX="329.0" layoutY="62.0" lineSpacing="4.0" smooth="false" strokeType="OUTSIDE" strokeWidth="0.0" text="Enregistrement" textAlignment="CENTER" wrappingWidth="161.0" />
+      <Text fill="#252424" layoutX="307.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Veuillez remplir les champs suivants" />
+      <TextField fx:id="TxtN" layoutX="344.0" layoutY="149.0" promptText="Nom complet" />
+      <TextField fx:id="TxtAd" layoutX="344.0" layoutY="213.0" promptText="e-mail" />
+      <TextField fx:id="TxtNu" layoutX="344.0" layoutY="277.0" promptText="login" />
+      <TextField fx:id="TxtPs" layoutX="344.0" layoutY="338.0" promptText="passe secret" />
+      <Text fill="#252424" layoutX="200.0" layoutY="294.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nom d'utilisateur" />
+      <Text fill="#252424" layoutX="273.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nom" />
+      <Text fill="#252424" layoutX="190.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Adresse élécronique" />
+      <Text fill="#252424" layoutX="225.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mot de passe" />
+      <Button layoutX="345.0" layoutY="399.0" mnemonicParsing="false" onAction="#AjouterUtilisateur" text="Enregistrer" textFill="#2581dd" />
+      <Label layoutX="341.0" layoutY="453.0" prefHeight="18.0" prefWidth="161.0" />
+      <Hyperlink layoutX="178.0" layoutY="484.0" onAction="#Retour" text="Retour" textFill="#2581dd" />
+      <Button layoutX="471.0" layoutY="399.0" mnemonicParsing="false" onAction="#vider" text="Vider" textFill="#2581dd" />
+   </children>
+</AnchorPane>

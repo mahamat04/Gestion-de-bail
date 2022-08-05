@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="538.0" prefWidth="690.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.MainController">
+   <children>
+      <VBox prefHeight="520.0" prefWidth="161.0" style="-fx-background-color: #2581dd;" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Text fill="#242525" layoutX="251.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login" />
+      <Text fill="#242525" layoutX="208.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mot de passe" />
+      <TextField fx:id="Txf" layoutX="351.0" layoutY="147.0" promptText="username" />
+      <PasswordField fx:id="Pwd" layoutX="351.0" layoutY="210.0" promptText="password" />
+      <Button layoutX="385.0" layoutY="269.0" mnemonicParsing="false" onAction="#Login" text="Se connecter" textFill="#2581dd" />
+      <Hyperlink layoutX="378.0" layoutY="322.0" onAction="#Enreg" text="Créer un compte" textFill="#2581dd" />
+      <Text fill="#2581dd" layoutX="333.0" layoutY="64.0" lineSpacing="4.0" smooth="false" strokeType="OUTSIDE" strokeWidth="0.0" text="Authentification" textAlignment="CENTER" wrappingWidth="161.0" />
+      <MenuBar layoutY="-1.0" prefHeight="31.0" prefWidth="690.0" style="-fx-background-color: #76a8d7;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Menu">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#Quitter" text="Quitter" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Aide">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </MenuBar>
+      <Label fx:id="etat" layoutX="342.0" layoutY="474.0" prefHeight="18.0" prefWidth="173.0" />
+      <Text layoutX="240.0" layoutY="488.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Etat :" />
+   </children>
+</AnchorPane>

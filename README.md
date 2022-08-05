@@ -1,2 +1,2 @@
-# Gestion-de-bail
-projet de gestion de contrat de bail
+# Projet-ICT207-Gestion-de-contrat-de-bail
+Il s'agit d'une application de gestion des contrats de bail d'une cité.

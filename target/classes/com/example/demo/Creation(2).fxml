@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onDragDetected="#Creation" prefHeight="576.0" prefWidth="690.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.MainController">
+    <children>
+        <VBox prefHeight="520.0" prefWidth="161.0" style="-fx-background-color: #2581dd;" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="0.0" />
+        <Text fill="#2581dd" layoutX="328.0" layoutY="35.0" lineSpacing="4.0" smooth="false" strokeType="OUTSIDE" strokeWidth="0.0" text="Création contrat" textAlignment="CENTER" wrappingWidth="161.0" />
+        <Text fill="#5b5454" layoutX="275.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Veuillez completer les informations suivantes" textAlignment="CENTER" />
+        <DatePicker layoutX="310.0" layoutY="184.0" prefHeight="24.0" prefWidth="171.0" />
+        <DatePicker layoutX="310.0" layoutY="298.0" prefHeight="24.0" prefWidth="171.0" />
+        <TextField layoutX="310.0" layoutY="239.0" />
+        <TextField layoutX="310.0" layoutY="354.0" />
+        <Button layoutX="342.0" layoutY="415.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="107.0" text="Enreistrer" textFill="#2581dd" />
+      <Hyperlink layoutX="185.0" layoutY="526.0" onAction="#Creation" text="Retour" />
+      <Text layoutX="196.0" layoutY="499.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Etat :" />
+      <Label layoutX="310.0" layoutY="486.0" prefHeight="18.0" prefWidth="161.0" />
+    </children>
+</AnchorPane>
